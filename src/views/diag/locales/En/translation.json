@@ -1,0 +1,22 @@
+{
+    "diag": {
+        "newDiag": "Diagnosis",
+        "newTreatment": "Treatment",
+        "newMedicine": "New Medicine",
+        "save": "Save",
+        "reset": "Reset",
+        "createOK": "Create diagnosis and treatment success",
+        "updateOK": "Update diagnosis and treatment success",
+        "treatment": {
+        	"medicine": "Medicine",
+        	"quantity": "Quantity",
+        	"usageNotes": "Uses"
+        },
+        "deleteMedicine": "Delete Medicine",
+        "confirmReset": "Are you sure to reset?",
+        "confirmResetYes": "Yes",
+        "confirmResetNo": "No",
+        "resetOK": "Reset diagnosis success",
+        "allFieldIsEmpty": "All field is empty"
+    }
+}

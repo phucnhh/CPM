@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CPM</title>
+    <meta charset="utf-8">
+
+    <style>
+        body{
+            background-color: rgba(220, 238, 230, 0.16);
+            overflow: hidden;
+        }
+
+        #logo {
+            position: absolute;
+            top: 90px;
+            left: 186px;
+            z-index: 2;
+        }
+
+        #title {
+            color: #808181;
+            font-size: 28pt;
+            font-weight: bold;
+            position: absolute;
+            z-index: 2;
+            font-family: Sans-Serif;
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        #waiter {
+            position:absolute;
+            background-color: rgba(255, 255, 255, 0.9);
+            text-align : center;
+            vertical-align : middle;
+            position : absolute;
+            top : 0;
+            left : 0;
+            right : 0;
+            bottom : 0;
+            padding-top: 260px;
+        }
+
+        #floatingCirclesG{
+            position : relative;
+            width:128px;
+            height:128px;
+            -moz-transform:scale(0.6);
+            -webkit-transform:scale(0.6);
+            -ms-transform:scale(0.6);
+            -o-transform:scale(0.6);
+            transform:scale(0.6);
+            margin: auto;
+        }
+
+        .f_circleG{
+            position:absolute;
+            background-color:#FFFFFF;
+            height:23px;
+            width:23px;
+            -moz-border-radius:12px;
+            -moz-animation-name:f_fadeG;
+            -moz-animation-duration:1.6s;
+            -moz-animation-iteration-count:infinite;
+            -moz-animation-direction:linear;
+            -webkit-border-radius:12px;
+            -webkit-animation-name:f_fadeG;
+            -webkit-animation-duration:1.6s;
+            -webkit-animation-iteration-count:infinite;
+            -webkit-animation-direction:linear;
+            -ms-border-radius:12px;
+            -ms-animation-name:f_fadeG;
+            -ms-animation-duration:1.6s;
+            -ms-animation-iteration-count:infinite;
+            -ms-animation-direction:linear;
+            -o-border-radius:12px;
+            -o-animation-name:f_fadeG;
+            -o-animation-duration:1.6s;
+            -o-animation-iteration-count:infinite;
+            -o-animation-direction:linear;
+            border-radius:12px;
+            animation-name:f_fadeG;
+            animation-duration:1.6s;
+            animation-iteration-count:infinite;
+            animation-direction:linear;
+        }
+
+        #frotateG_01{
+            left:0;
+            top:52px;
+            -moz-animation-delay:0.6s;
+            -webkit-animation-delay:0.6s;
+            -ms-animation-delay:0.6s;
+            -o-animation-delay:0.6s;
+            animation-delay:0.6s;
+        }
+
+        #frotateG_02{
+            left:15px;
+            top:15px;
+            -moz-animation-delay:0.8s;
+            -webkit-animation-delay:0.8s;
+            -ms-animation-delay:0.8s;
+            -o-animation-delay:0.8s;
+            animation-delay:0.8s;
+        }
+
+        #frotateG_03{
+            left:52px;
+            top:0;
+            -moz-animation-delay:1s;
+            -webkit-animation-delay:1s;
+            -ms-animation-delay:1s;
+            -o-animation-delay:1s;
+            animation-delay:1s;
+        }
+
+        #frotateG_04{
+            right:15px;
+            top:15px;
+            -moz-animation-delay:1.2s;
+            -webkit-animation-delay:1.2s;
+            -ms-animation-delay:1.2s;
+            -o-animation-delay:1.2s;
+            animation-delay:1.2s;
+        }
+
+        #frotateG_05{
+            right:0;
+            top:52px;
+            -moz-animation-delay:1.4s;
+            -webkit-animation-delay:1.4s;
+            -ms-animation-delay:1.4s;
+            -o-animation-delay:1.4s;
+            animation-delay:1.4s;
+        }
+
+        #frotateG_06{
+            right:15px;
+            bottom:15px;
+            -moz-animation-delay:1.6s;
+            -webkit-animation-delay:1.6s;
+            -ms-animation-delay:1.6s;
+            -o-animation-delay:1.6s;
+            animation-delay:1.6s;
+        }
+
+        #frotateG_07{
+            left:52px;
+            bottom:0;
+            -moz-animation-delay:1.8s;
+            -webkit-animation-delay:1.8s;
+            -ms-animation-delay:1.8s;
+            -o-animation-delay:1.8s;
+            animation-delay:1.8s;
+        }
+
+        #frotateG_08{
+            left:15px;
+            bottom:15px;
+            -moz-animation-delay:2s;
+            -webkit-animation-delay:2s;
+            -ms-animation-delay:2s;
+            -o-animation-delay:2s;
+            animation-delay:2s;
+        }
+
+        @-moz-keyframes f_fadeG{
+            0%{
+                background-color: rgba(166, 166, 161, 0.84)
+            }
+
+            100%{
+                background-color:#FFFFFF}
+
+        }
+
+        @-webkit-keyframes f_fadeG{
+            0%{
+                background-color:rgba(166, 166, 161, 0.84)}
+
+            100%{
+                background-color:#FFFFFF}
+
+        }
+
+        @-ms-keyframes f_fadeG{
+            0%{
+                background-color:rgba(166, 166, 161, 0.84)}
+
+            100%{
+                background-color:#FFFFFF}
+
+        }
+
+        @-o-keyframes f_fadeG{
+            0%{
+                background-color:rgba(166, 166, 161, 0.84)}
+
+            100%{
+                background-color:#FFFFFF}
+
+        }
+
+        @keyframes f_fadeG{
+            0%{
+                background-color:rgba(166, 166, 161, 0.84)}
+
+            100%{
+                background-color:#FFFFFF}
+
+        }
+
+    </style>
+
+
+    <script>
+
+
+
+        function start() {
+            setTimeout(function(){
+                window.location.href = "index.html" ;
+            }, 1000) ;
+
+
+
+        }
+
+    </script>
+
+</head>
+
+<body onLoad="start()">
+<div id="title">CPM</div>
+<img src="icon_128.png"  id="logo"/>
+<div id="waiter">
+    <div id="floatingCirclesG">
+        <div class="f_circleG" id="frotateG_01"></div>
+        <div class="f_circleG" id="frotateG_02"></div>
+        <div class="f_circleG" id="frotateG_03"></div>
+        <div class="f_circleG" id="frotateG_04"></div>
+        <div class="f_circleG" id="frotateG_05"></div>
+        <div class="f_circleG" id="frotateG_06"></div>
+        <div class="f_circleG" id="frotateG_07"></div>
+        <div class="f_circleG" id="frotateG_08"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

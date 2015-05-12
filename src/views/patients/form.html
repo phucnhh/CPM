@@ -1,0 +1,71 @@
+<div id="patients_form__confirmDelete">
+    <p>
+        <span class="ui-icon ui-icon-alert" style="float:left; margin: 0 7px 20px 0;"></span>
+        <span data-i18n="patients.confirmDelete">Are you sure to delete this patient?</span>
+    </p>
+</div>
+<div id="patients_form__confirmDeleteDiag">
+    <p>
+        <span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>
+        <span data-i18n="patients.confirmDeleteDiag">Are you sure to delete this diagnosis</span>
+    </p>
+</div>
+<div id="patients_form__frame" class="oneHundred screen">
+    <!-- <div id="patients_form__search"></div> -->
+    <div class="patients_form__actions">
+
+        <div id="patients_form__search"></div>
+        <button class="patients_form__save" data-i18n="patients.save">Save</button>
+        <button class="patients_form__delete" data-i18n="patients.delete">Delete</button>
+    </div>
+    <div class="patients_form__errors ui-state-error"></div>
+    <div id="patients_form__patient" class="form_block">
+        <ul>
+            <li><a href="#patients_form_patient-1"
+                   data-i18n="patients.patient"></a>
+            </li>
+        </ul>
+        <div id="patients_form_patient-1">
+            <fieldset class="patients_form_patient">
+                <legend data-i18n="patients.patient"></legend>
+                <div class="patients_form__name"></div>
+                <div class="patients_form__lastName"></div>
+                <div class="patients_form__identifyCardNumber"></div>
+                <div class="patients_form__dateOfBirth"></div>
+                <div class="patients_form__gender"></div>
+                <div class="patients_form__address"></div>
+                <div class="patients_form__phoneNumber"></div>
+            </fieldset>
+            <fieldset class="patients_form__notesFieldSet col-1-3">
+                <legend data-i18n="patients.notes">Notes</legend>
+                <div class="patients_form__specialNotes"></div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div id="patients_form__similar">
+        <div id="patients_form__similarSearch">
+            <ul>
+                <li><a href="#patients_form__similarSearch-1" data-i18n="patients.similar">Clients similaires</a></li>
+            </ul>
+            <div id="patients_form__similarSearch-1">
+                <div class="patients_form__similar" style="width: 100%; height: 266px;"></div>
+            </div>
+        </div>
+    </div>
+    <div id="patients_form__diags" class="form_block">
+        <ul>
+            <li>
+                <a href="#patients_form__diags-1" data-i18n="patients.diags">Diagnosis History</a>
+            </li>
+        </ul>
+
+        <div id="patients_form__diags-1">
+            <div id="patients_form__diagsGrid"></div>
+            <div style="float:left">
+                <button class="patients_form__newDiagTable btnInverted" data-i18n="patients.newDiag">New Diagnosis</button>
+            </div>
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,71 @@
+#home_home__container {
+    width: 100%;
+    height: 100%;
+}
+
+#home_home__frame {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+#home_home__banner {
+    height : 80px;
+    width : 100%;
+
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+    background: white no-repeat right  20px center;
+    background-size: 150px;
+    margin-top : 50px;
+}
+
+#home_home__title {
+    background: white no-repeat left center;
+    width: 270px;
+    height: 80px;
+    color: #808181;
+    line-height: 80px;
+    padding-left: 80px;
+    margin-left: 20px;
+    font-size: 23pt;
+    font-weight: bold;
+}
+
+#home_home__banner button {
+    height: 40px;
+    font-weight: normal !important;
+    font-size: 13pt;
+}
+
+#home_home__searchContainer {
+    background: white;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 150px;
+    right: 0;
+    padding-left: 30px;
+    line-height: 50px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#home_home__copyright {
+    color : white;
+    position: absolute;
+    left : 5px;
+    bottom : 5px ;
+}

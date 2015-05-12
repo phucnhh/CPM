@@ -1,0 +1,7 @@
+.fields_generic__postLabel {
+    display: none;
+}
+
+.fields_generic__input {
+    max-width: 200px;
+}

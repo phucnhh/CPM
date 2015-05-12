@@ -1,0 +1,84 @@
+#diag_diagOnly__frame {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px;
+    overflow: auto;
+}
+
+#diag_diagOnly__actions {
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#diag_diagOnly__actions label {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#diag_diagOnly__patientTitle {
+    color: #009BA6;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#diag_diagOnly__newDiag {
+    display: inline-block;
+    margin-bottom : 20px;
+    width: calc(100% - 8px);
+}
+
+.diag_diagOnly__symptoms {
+    padding-top: 2px;
+}
+
+.diag_diagOnly__usageNotes {
+    padding-top: 2px;
+}
+
+#diag_diagOnly__patient {
+    display: inline-block;
+    width: 400px;
+    height: 270px;
+    vertical-align: top;
+}
+
+#diag_diagOnly__search {
+    display: inline-block;
+}
+
+#diag_diagOnly__patientName{
+    font-weight: bold;
+    font-size: 1.3em;
+}
++
+#diag_diagOnly__patientSelected {
+    display : none;
+}
+
+#diag_diagOnly__patientScreen {
+    margin-left: 10px;
+}
+
+#diag_diagOnly__treatmentMedicine {
+    margin-top: 10px;
+    width: 100%; 
+    height: 300px;
+}
+
+#diag_diagOnly__treatmentMedicine div {
+    width: 100% !important;
+}
+
+.diag_diagOnly__treatmentMedicine {
+    float: center;
+}
+
+#diag_diagOnly__confirmReset {
+    display: none;
+}

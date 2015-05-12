@@ -1,0 +1,26 @@
+{
+  "name": "CPM",
+  "version": "0.0.1",
+  "description": "CPM",
+  "moduleType": [
+    "es6"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "i18next": "~1.7.3",
+    "w2ui": "~1.4.1",
+    "jquery": "~2.1.1",
+    "jquery-ui": "~1.11.1",
+    "select2": "~3.5.1",
+    "PhoneNumber.js-for-the-Web": "git://github.com/andris9/PhoneNumber.js-for-the-Web.git",
+    "toastr": "~2.1.0",
+    "ckeditor": "~4.4.6"
+  }
+}

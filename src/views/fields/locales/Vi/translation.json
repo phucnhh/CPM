@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "lastName": "Họ",
+        "name": "Tên",
+        "identifyCardNumber": "Số chứng minh thư",
+        "dateOfBirth": "Ngày sinh",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "male": "Nam",
+        "female": "Nữ",
+        "phoneNumber": "Điện thoại",
+        "email": "Email",
+        "specialNotes": "Ghi chú",
+        "blood": "Huyết áp",
+        "pulse": "Mạch",
+        "temperature": "Nhiệt độ",
+        "weight": "Cân nặng",
+        "height": "Chiều cao",
+        "symptoms": "Triệu chứng",
+        "medicineName": "Tên thuốc",
+        "medicineQuantity": "Số lượng",
+        "usageNotes": "Cách sử dụng",
+        "date": "Ngày"
+    }
+}

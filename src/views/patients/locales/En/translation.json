@@ -1,0 +1,29 @@
+{
+    "patients": {
+        "patient": "Patient",
+        "coordinates": "Coordinates",
+        "similar" : "Clients similaires",
+        "diags": "Diagnosis history",
+        "newDiag": "New Diagnosis",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "createOK": "Create patient success!",
+        "updateOK": "Update patient success!",
+        "deleteOK": "Delete patient success!",
+        "confirmDelete": "Are you sure to delete this patient?",
+        "confirmDeleteYes": "Yes",
+        "confirmDeleteNo": "No",
+        "confirmDeleteDiag": "Are you sure to delete this diagnosis?",
+        "confirmDeleteDiagYes": "Yes",
+        "confirmDeleteDiagNo": "No",
+        "confirmCancel": "Are you sure to cancel?",
+        "confirmCancelYes": "Yes",
+        "confirmCancelNo": "No",
+        "diag": {
+            "symptoms": "Symptoms"
+        },
+        "deleteDiag": "Delete Diagnosis",
+        "deleteDiagOK": "Delete this diagnosis success"
+    }
+}

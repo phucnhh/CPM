@@ -1,0 +1,22 @@
+{
+    "fields": {
+        "lastName": "Last Name",
+        "name": "First Name",
+        "Số chứng minh thư": "Identify Card",
+        "dateOfBirth": "Birthday",
+        "address": "Address",
+        "gender": "Gender",
+        "phoneNumber": "Phone Number",
+        "email": "Email",
+        "specialNotes": "Special Notes",
+        "blood": "Blood pressure",
+        "pulse": "Pulse rate",
+        "temperature": "Temperature",
+        "weight": "Weight",
+        "height": "Height",
+        "symptoms": "Symptoms",
+        "medicineName": "Medicine",
+        "medicineQuantity": "Quantity",
+        "usageNotes": "Usage Notes"
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "mustHaveLicense" : "Bạn phải có file license phù hợp để sử dụng phần mềm này",
+  "app": {
+    "name": "CPM"
+  },
+  "error": "Lỗi",
+  "warning": "Cảnh báo",
+  "menu": {
+    "file":        "File",
+    "newDiag":     "Bệnh án",
+    "newPatient": "Bệnh nhân",
+    "quit":        "Thoát",
+    "tools":       "Công cụ",
+    "exports":     "Exports / Listing",
+    "backup":      "Backup dữ liệu",
+    "settings":    "Cài đặt",
+    "import":    "Import data",
+    "factSheets":  "FactSheets",
+    "help":        "Trợ giúp",
+    "manual":      "user Manual",
+    "about":       "About",
+    "cut":         "Cắt",
+    "paste":       "Dán",
+    "copy":        "Sao chép"
+  },
+
+  "msg": {
+    "required" :   "Trường __field__ là bắt buộc",
+    "mustBeOnlyNumber": "Trường __field__ chỉ chứa các số.",
+    "mustBeFrom9-11digits": "Trường __field__ chỉ chứa 9-11 số."
+  },
+
+  "format" : {
+      "date" : "dd/mm/yyyy",
+      "dateShortYear" : "dd/mm/yy",
+      "dateDayMonth" : "dd/mm"
+  }
+}

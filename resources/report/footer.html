@@ -1,0 +1,33 @@
+<div style="font-family: Arial;font-size: 8pt; color: #666">
+    <div style="float:left; width: 95px; ">
+        <img src="bayrol-footer.png" style="width: 90px; margin-top: 5px;"/>
+    </div>
+
+    <div style="float:right; text-align: right; width: 100px;">
+        <span id="page_number"></span><br/>
+        &Eacute;dit&eacute; le <span id="dt_edit"></span>
+    </div>
+
+    <div style="width: calc(100% - 50px); text-align: center">
+        Dangereux. - Respecter les pr&eacute;cautions d'emploi.<br/>
+        Utiliser les biocides avec pr&eacute;caution.
+        Avant toute utilisation, lire l'&eacute;tiquette et les informations concernant le produit.
+    </div>
+</div>
+
+
+<script>
+    var pdfInfo = {};
+    var x = document.location.search.substring(1).split('&');
+    for (var i in x) {
+        var z = x[i].split('=', 2);
+        pdfInfo[z[0]] = unescape(z[1]);
+    }
+    //function getPdfInfo() {
+    var page = pdfInfo.page || 1;
+    var pageCount = pdfInfo.topage || 1;
+    document.getElementById('page_number').textContent = page + " / " + pageCount;
+    //}
+    var now = new Date();
+    document.getElementById('dt_edit').textContent = ("00" + now.getDate()).slice(-2) + "/" + ("00" + (now.getMonth() + 1)).slice(-2) + "/" + now.getFullYear();
+</script>

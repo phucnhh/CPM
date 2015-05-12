@@ -1,0 +1,26 @@
+{
+    "diag": {
+        "newDiag": "Bệnh án",
+        "newTreatment": "Điều trị",
+        "newMedicine": "Thuốc mới",
+        "save": "Lưu",
+        "reset": "Đặt lại",
+        "createOK": "Tạo bệnh án và điều trị thành công",
+        "updateOK": "Cập nhật bệnh án và phương pháp điều trị thành công",
+        "treatment": {
+        	"medicine": "Thuốc",
+        	"quantity": "Số lượng",
+        	"usageNotes": "Cách sử dụng"
+        },
+        "deleteMedicine": "Xóa thuốc",
+        "confirmReset": "Bạn có chắc chắn muốn đặt lại?",
+        "confirmResetYes": "Có",
+        "confirmResetNo": "Không",
+        "resetOK": "Đặt lại các trường trong hồ sơ bệnh án thành công",
+        "allFieldIsEmpty": "Tất cả các trường đều rỗng",
+        "returnPatientScreen": "Thông tin bệnh nhân",
+        "patient": {
+            "youSelected": "Bệnh nhân"
+        }
+    }
+}

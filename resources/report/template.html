@@ -1,0 +1,424 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<style>
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 11pt;
+}
+
+code {
+    font-family: Arial;
+    font-size: 11pt;
+    color: #999;
+}
+
+.head_block {
+    float: left;
+    margin: 20px;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 180px;
+    max-width: calc(50% - 50px);
+}
+
+#shop_logo {
+    margin-bottom: 10px;
+    min-width: 350px;
+    max-width: 400px;
+}
+
+#shop_logo img {
+    max-height: 90px;
+    max-width: 200px;
+}
+
+#shop_name {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#shop_tel {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#client {
+    float: right;
+    min-width: 350px;
+    max-width: 400px;
+}
+
+#client tr {
+    margin: 0
+}
+
+#client table {
+    border-spacing: 0;
+}
+
+#client th {
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+    vertical-align: top;
+    padding: 0 10px 0 0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+#client td {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+#params {
+    clear: both;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #EEE;
+    min-width: 700px;
+    max-width: 830px;
+    overflow : hidden;
+    margin: auto
+}
+
+#params th {
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+    vertical-align: top;
+    width: 150px;
+    white-space: nowrap;
+    padding-right: 5px
+}
+
+#params td {
+    vertical-align: top;
+    width: 100px;
+}
+
+td#params_options {
+    width: auto;
+    margin: 0;
+}
+
+#params li:before {
+    content: "\2713\0020";
+}
+
+#params ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#params li {
+    margin: 0;
+}
+
+#title {
+    font-size: 2em;
+    text-align: center;
+    clear: both;
+    margin-bottom : 20px;
+}
+
+h1 {
+    /*background-size: 170px 30px;*/
+    background: url(title.png);
+    background-repeat: no-repeat;
+    clear: both;
+    font-size: 1em;
+    margin: 20px 20px 15px 20px;
+    padding-bottom: 4px;
+    line-height: 30px;
+}
+
+h1 span {
+    padding: 0 10px 0 10px;
+    margin-left: 32px;
+    background: #333;
+    color: white;
+    height: 30px;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+#results {
+    width: 700px;
+    border: 2px #333 solid;
+    margin: auto;
+    border-radius: 10px;
+    border-spacing: 0;
+    background-color: #333;
+}
+
+#results tr.header {
+
+    vertical-align: bottom;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+
+    font-size: 10pt;
+}
+
+#results tr.header th {
+    font-weight: bold;
+    padding-bottom: 5px;
+    vertical-align: top;
+    min-width: 50px;
+    max-width: 100px;
+    padding: 0px 0px 10px 0px;
+}
+
+#results tr.header .first {
+    border-radius: 10px 0 0 0;
+}
+
+#results tr.header .last {
+    border-radius: 0 10px 0 0;
+}
+
+#results th {
+    font-weight: normal;
+    border-right: 2px solid #333;
+}
+
+#results tr.measure td {
+    font-weight: bold;
+}
+
+#results tr.measure th {
+    font-size: 10pt;
+}
+
+#results tr.measure {
+    height: 40px;
+    background-color: white;
+}
+
+#results td {
+    text-align: center;
+    padding: 3px
+}
+
+#results tr.reference th {
+    font-size: 10pt;
+}
+
+#results tr.reference {
+    background: #EEE;
+}
+
+#results tr.obs {
+    background-color: white;
+}
+
+#results tr.obs th {
+    font-size: 10pt;
+}
+
+#results tr.obs .first {
+    border-radius: 0 0 0 4px;
+}
+
+#results tr.obs .last {
+    border-radius: 0 0 4px 0;
+}
+
+#results tfooter {
+    height: 10px;
+}
+
+.ok {
+    width : 14px;
+    height : 14px;
+    display : inline-block;
+    background: url(ok.png) no-repeat;
+}
+
+.ko {
+    width : 14px;
+    height : 14px;
+    display : inline-block;
+    background: url(ko.png) no-repeat;
+}
+
+.block {
+    page-break-inside: avoid;
+    margin: 5px 20px 15px 0px;
+}
+
+.section {
+
+    margin: 0px 20px 0 20px;
+}
+
+.section h1 {
+    margin: 0;
+}
+
+.contents {
+    padding-right: 160px;
+    position: relative;
+}
+
+.notes {
+    position: absolute;
+    right: 0;
+    min-height: 200px;
+    height: 100%;
+    width: 150px;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #EEE 0%, #ffffff 100%);
+    margin: -15px 10px 0 0;
+    padding: 0;
+    font-style: italic;
+    color: #666;
+}
+
+.watermark {
+    margin-top: 50px;
+    margin-left: -60px;
+    opacity: 0.5;
+    z-index: 99;
+    font-family: Arial Black;
+    font-size: 24pt;
+    color: #AAA;
+    -webkit-transform: rotate(270deg);
+    margin-right: 50px;
+}
+
+.block {
+    page-break-inside: avoid;
+}
+
+.block p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: 1em;
+}
+
+h2:before {
+    content: url(bullet.png);
+    margin-right : 5px;
+}
+
+
+
+.notice {
+    width: calc(100% - 60px);
+    margin: 20px 20px 0 20px;
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.recos div {
+    margin: 7px;
+    padding-left: 5px
+}
+
+.recos div p:before {
+    content: "\2013";
+    float: left;
+    margin-right: 10px
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 25px;
+    padding: 0px;
+}
+
+ul li {
+    margin: 7px;
+}
+
+ul li:before {
+    content: "\2013";;
+    float: left;
+    margin-right: 10px
+}
+
+code { display : inline }
+
+#shop_address p { margin : 2px }
+
+#O2_1 p {
+    display: inline;
+}
+
+#O2_1 .NOT_POOLRELAX_AND_NOT_POOLMANAGER:before ,
+#O2_1 .USE_POOLRELAX_OR_POOLMANAGER:before
+{
+    content : ''
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<div id="header">
+    <div id="shop_infos" class="head_block">
+        <div id="shop_logo"><img src="@SHOP_LOGO@"/></div>
+        <div id="shop_name">@SHOP_NAME@</div>
+        <div id="shop_address">
+            @SHOP_TEXT@
+        </div>
+    </div>
+
+    <div id="client" class="head_block">
+        <table>
+            <tr>
+                <th>Code client :</th>
+                <td>@CUSTOMER_REF@</td>
+            </tr>
+            <tr>
+                <th>Nom client :</th>
+                <td>@CUSTOMER_NAME@</td>
+            </tr>
+            <tr>
+                <th>Adresse :</th>
+                <td>
+                    @CUSTOMER_ADDRESS@<br/>
+                    @CUSTOMER_ZIP@ @CUSTOMER_CITY@
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="title">
+        <b>Title</b><br/>
+
+    </div>
+</div>
+
+    <div class="notice">
+        <b>Remarques :</b><br/>
+
+        <p>@GLOBAL_NOTES@</p>
+
+    </div>
+
+
+</body>
+</html>

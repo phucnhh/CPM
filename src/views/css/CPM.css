@@ -1,0 +1,195 @@
+@font-face{
+    font-family:"new_univers_light";
+    src:url("images/newuniverslight.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:"new_univers";
+    src:url("images/newunivers.ttf") format("truetype");
+}
+
+body{
+    font: 0.8em "new_univers_light";
+    margin : 0
+}
+
+.screen {
+    padding: 60px 30px;
+}
+
+.form_block {
+    width: calc(100% - 10px);
+}
+
+img.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-width:2000px;
+    min-height:100%;
+    width:100%;
+    height:auto;
+}
+
+h1,h2,h3,h4,h5{font-family:"new_univers";}
+
+a, a:visited{color:#808181;text-decoration:none}
+a:hover{text-decoration:underline}
+
+/*header{position:fixed;top:0;left:0;width:100%;height:50px;background:#FFF url('images/logo-top.png')
+no-repeat bottom right;z-index:9999;
+    border-bottom: 1px  #808181 solid;
+}*/
+header{position:fixed;top:0;left:0;width:100%;height:50px;
+    border-bottom: 1px  #808181 solid;
+}
+header h1{float:left;color:#808181;line-height:50px;margin:0}
+header img{float:left;margin:4px 0}
+header nav{
+    float: left;
+    padding: 15px 0;
+}
+header a{text-transform:uppercase;padding:10px;text-align:center;font-size:15px;margin:0px 10px 0 0 ;background-color:#FFF}
+header a:last{margin-right:10px}
+
+header nav a{
+    padding: 5px 10px 7px;
+
+    float: left;
+    list-style: none outside none;
+
+    position: relative;
+    bottom: 5px;
+    white-space: nowrap;
+
+    background: url("images/ui-bg_highlight-hard_100_f6f6f6_1x100.png") repeat-x scroll 50% 50% #f6f6f6;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color:#808181;
+
+    color: #808181;
+    font-weight: bold;
+
+    border-radius: 6px 6px 0 0;
+    line-height:27px;
+    cursor: pointer;
+}
+header nav a.active,header nav a.active:hover{
+    background: #808181;
+    color:#FFF;
+}
+header nav a:hover{
+    text-decoration:none;
+    background: #eeeeee;
+}
+
+
+.demoHeaders {
+    margin-top: 2em;
+}
+#dialog-link {
+    padding: .4em 1em .4em 20px;
+    text-decoration: none;
+    position: relative;
+}
+#dialog-link span.ui-icon {
+    margin: 0 5px 0 0;
+    position: absolute;
+    left: .2em;
+    top: 50%;
+    margin-top: -8px;
+}
+#icons {
+    margin: 0;
+    padding: 0;
+}
+#icons li {
+    margin: 2px;
+    position: relative;
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+#icons span.ui-icon {
+    float: left;
+    margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
+select {
+    width: 200px;
+}
+
+.btnInverted{background: #808181 !important;color:#FFF !important;font-weight:bold !important}
+
+.col-1-2{float:left;width:45%;display:inline;}
+.col-1-3{float:left;width:30%;display:inline;}
+.col-2-3{float:left;width:55%;display:inline;}
+
+.customerActions{float:right;margin:1em 0; clear: both; width:100%; text-align: right}
+
+.ui-tabs-panel{overflow:auto}
+.ui-autocomplete{
+    z-index:99999 !important
+}
+
+.ui-autocomplete .ui-state-focus small {
+    font-weight: normal;
+    color : black;
+}
+
+label {
+    text-align : right;
+    padding-right : 5px;
+    padding-top:4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: baseline;
+}
+label, input, textarea, select {
+    display: inline-block;
+    margin: 0;
+}
+.oneCell { width : 15% }
+.twoCell { width : 30% }
+.threeCell { width : 45% }
+.fourCell { width : 60% }
+#coatingOther, #extraInstallationOther, #regulationOther,
+#electrolyzerOther, #dosageChlorineOther, #dosageBromineOther,
+#dosageFlocculantOther, #disinfectantChlorine, #disinfectantBromine,
+#disinfectantOxygen, #disinfectantSalt {display : none}
+/*#tabsCoords {display: inline-block; width: calc(100% - 340px); vertical-align: top}*/
+#tabsCoords {display: inline-block; width: calc(100% - 530px); vertical-align: top}
+#searchClient {display: inline-block; width: 500px; height: 270px; vertical-align: top}
+
+#tabsOptions {display: inline-block; width: calc(100% - 10px); vertical-align: top}
+
+
+
+fieldset {
+    border-radius: 5px;
+    border: 1px #808181 solid;
+    margin-top: 5px;
+}
+
+#fieldsNotes {height: 250px;}
+
+#fieldsCoords {height: 250px;}
+
+.w2ui-reset table {
+    font-size : 1.1em
+}
+
+button {
+    white-space: nowrap;
+}
+
+.toast-top-full-width {
+    top: 50px
+}

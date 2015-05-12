@@ -1,0 +1,36 @@
+{
+  "mustHaveLicense" : "You must have a valid license to access this feature",
+  "app": {
+    "name": "CPM"
+  },
+  "error": "Error",
+  "warning": "Warning",
+  "menu": {
+    "file":        "File",
+    "newDiag":     "Diagnosis",
+    "newPatient": "New Patient",
+    "quit":        "Quit",
+    "tools":       "Tools",
+    "exports":     "Exports / Listing",
+    "backup":      "Backing up the database",
+    "settings":    "Settings",
+    "import":    "Import data",
+    "factSheets":  "FactSheets",
+    "help":        "Help",
+    "manual":      "user Manual",
+    "about":       "About",
+    "cut":         "Cut",
+    "paste":       "Pase",
+    "copy":        "Copy"
+  },
+
+  "msg": {
+    "required" :   "The field __field__ is required"
+  },
+
+  "format" : {
+      "date" : "dd/mm/yyyy",
+      "dateShortYear" : "dd/mm/yy",
+      "dateDayMonth" : "dd/mm"
+  }
+}

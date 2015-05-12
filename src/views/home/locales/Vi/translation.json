@@ -1,0 +1,15 @@
+{
+    "home": {
+        "home": "Trang chủ",
+        "returnHome": "Trang chủ",
+        "newPatient": "Tạo bệnh nhân",
+        "patient": "Bệnh nhân",
+        "licErr" : {
+            "LIC_DONT_EXISTS" : "File license không tồn tại",
+            "LIC_INVALID" : "License không hợp lệ",
+            "INFOS_DONT_EXISTS" : "File info không tồn tại",
+            "LIC_EXPIRED" : "Hết hạn sử dụng phần mềm"
+        },
+        "search": "Tìm kiếm"
+    }
+}

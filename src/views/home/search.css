@@ -1,0 +1,12 @@
+.home_search__search {
+    width : 100px
+}
+
+.home_search__grid {
+    width: 850px;
+    height: 350px;
+}
+
+.home_search__popup {
+    display: none
+}

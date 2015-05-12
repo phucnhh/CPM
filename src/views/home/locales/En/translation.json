@@ -1,0 +1,15 @@
+{
+    "home": {
+        "home": "Home",
+        "returnHome": "Return home",
+        "newPatient": "New Patient",
+        "patient": "Patient",
+        "licErr" : {
+            "LIC_DONT_EXISTS" : "License doesn't exist",
+            "LIC_INVALID" : "License invalid",
+            "INFOS_DONT_EXISTS" : "Infos doesn't exist",
+            "LIC_EXPIRED" : "License expire"
+        },
+        "search": "Search"
+    }
+}

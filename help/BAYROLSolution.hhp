@@ -1,0 +1,28 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=BAYROLSolution.chm
+Contents file=Table of Contents.hhc
+Default topic=000_menu_welcome.html
+Display compile progress=No
+Index file=Index.hhk
+Language=0x40c French (France)
+Title=BAYROL Solution
+
+
+[FILES]
+001_menu_customer.html
+002_menu_diag.html
+010_create_customer.html
+011_search_customer.html
+012_listings.html
+020_create_diag.html
+021_histo_diag.html
+000_menu_welcome.html
+003_menu_tools.html
+030_backup.html
+031_config.html
+032_import.html
+
+[INFOTYPES]
+

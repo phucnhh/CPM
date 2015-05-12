@@ -1,0 +1,29 @@
+{
+    "patients": {
+        "patient": "Bệnh nhân",
+        "similar" : "Bệnh nhân ",
+        "diags": "Lịch sử bệnh án",
+        "newDiag": "Tạo bệnh án",
+        "save": "Lưu",
+        "cancel": "Thay đổi",
+        "delete": "Xóa",
+        "createOK": "Tạo bệnh nhân thành công!",
+        "updateOK": "Cập nhật bệnh nhân thành công!",
+        "deleteOK": "Xóa bệnh nhân thành công!",
+        "confirmDelete": "Bạn có chắc chắn muốn xóa bệnh nhân này?",
+        "confirmDeleteYes": "Có",
+        "confirmDeleteNo": "Không",
+        "confirmDeleteDiag": "Bạn có chắc chắn muốn xóa bệnh án này?",
+        "confirmDeleteDiagYes": "Có",
+        "confirmDeleteDiagNo": "Không",
+        "confirmCancel": "Bạn có chắc chắn muốn thay đổi?",
+        "confirmCancelYes": "Có",
+        "confirmCancelNo": "Không",
+        "diag": {
+            "symptoms": "Triệu chứng"
+        },
+        "deleteDiag": "Xóa bệnh án",
+        "deleteDiagOK": "Xóa bệnh án thành công",
+        "notes": "Ghi chú"
+    }
+}

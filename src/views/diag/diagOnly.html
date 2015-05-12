@@ -1,0 +1,49 @@
+<div id="diag_diagOnly__confirmReset">
+    <p>
+        <span class="ui-icon ui-icon-info" style="float:left; margin: 0 7px 20px 0;" ></span>
+        <span class="diag_diagOnly__confirmResetMsg" data-i18n="diag.cofnirmReset">Are you sure to reset?</span>
+    </p>
+</div>
+<div id="diag_diagOnly__frame" class="oneHundred screen">
+    <div id="diag_diagOnly__actions" class="ui-widget-content">
+        <div id="diag_diagOnly__patientSelected">
+            <label data-i18n="diag.patient.youSelected">You selected</label>
+            <label id="diag_diagOnly__patientName"></label>
+        </div>
+        <button class="diag_diagOnly__patientScreen" data-i18n="diag.returnPatientScreen">Patient Screen</button>
+    </div>
+    <div id="diag_diagOnly__newDiag">
+        <ul>
+            <li>
+                <a href="#diag_diagOnly__newDiag-1" data-i18n="diag.newDiag">Diagnosis</a>
+            </li>
+            <li>
+                <a href="#diag_diagOnly__newTreatment-1" data-i18n="diag.newTreatment">Treament</a>
+            </li>
+        </ul>
+        <div id="diag_diagOnly__newDiag-1">
+            <fieldset class="diag_diagOnly__newDiag">
+                <legend data-i18n="diag.newDiag">Diagnosis</legend>
+                <div class="diag_diagOnly__blood"></div>
+                <div class="diag_diagOnly__pulse"></div>
+                <div class="diag_diagonly__temperature"></div>
+                <div class="diag_diagOnly__weight"></div>
+                <div class="diag_diagOnly__height"></div>
+                <div class="diag_diagOnly__symptoms"></div>
+            </fieldset>
+        </div>
+        <div id="diag_diagOnly__newTreatment-1">
+            <fieldset class="diag_diagOnly__newTreatment">
+                <legend data-i18n="diag.newMedicine">New Medicine</legend>
+                <div class="diag_diagOnly__medicineName"></div>
+                <div class="diag_diagOnly__medicineQuantity"></div>
+                <div class="diag_diagOnly__usageNotes"></div>
+                <button class="diag_diagOnly__addMedicine">Add Medicine</button>
+            </fieldset>
+            <div id="diag_diagOnly__treatmentMedicine"></div>
+        </div>
+        <button class="diag_diagOnly__save" data-i18n="diag.save">Save</button>
+        <button class="diag_diagOnly__reset" data-i18n="diag.reset">Reset</button>
+    </div>
+
+</div>

@@ -1,0 +1,27 @@
+.home_banner__logo {
+    background: white no-repeat center center;
+    width: 255px;
+    height: 42px;
+    color: #808181;
+    line-height: 42px;
+    padding-left: 50px;
+    margin-left: 10px;
+    font-size: 21pt;
+    font-weight: bold;
+    float: left;
+    margin-top: 5px;
+}
+
+.home_banner__home {
+    cursor: pointer;
+    background: transparent;
+}
+
+
+
+.home_banner__returnHome {
+    font-size: 9pt;
+    margin-top: 33px;
+    display: inline-block;
+    background: transparent;
+}

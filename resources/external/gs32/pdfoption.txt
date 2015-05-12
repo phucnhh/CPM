@@ -1,0 +1,8 @@
+-IC:\gs32\lib;C:\gs32\fonts
+ -sDEVICE=pdfwrite
+ -r600
+ -dNOPAUSE
+ -dSAFER
+ -sPAPERSIZE=letter
+ -dCompatibilityLevel=1.4
+ -dPDFSETTINGS=/prepress

@@ -1,0 +1,69 @@
+#patients_form__frame {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px;
+    overflow: auto;
+}
+
+#patients_form__patient {
+    display: inline-block;
+    margin-bottom : 20px;
+    width: calc(100% - 415px);
+}
+
+.patients_form__notesFieldSet {
+    width : calc(100% - 27px);
+}
+
+.patients_form__notesCustomer textarea {
+    width: 98%;
+    height: 192px;
+}
+
+#patients_form__search {
+    display: inline-block;
+}
+
+.patients_form__actions{
+    margin: 1em 0;
+    width: calc(100% - 5px);
+    text-align: right;
+}
+
+.patients_form__delete {
+    display: none;
+}
+
+
+#patients_form__similar {
+    display: inline-block;
+    width: 400px;
+    height: 270px;
+    vertical-align: top;
+}
+
+#patients_form__confirmDelete {
+	display: none;
+}
+
+#patients_form__confirmCancel {
+    display: none;
+}
+
+#patients_form__confirmDeleteDiag {
+    display: none;
+}
+
+#patients_form__diags {
+    display: none;
+    padding-top: 3px ! important;
+    margin-top: 10px;
+}
+
+#patients_form__diagsGrid {
+    width: 100%;
+    height: 111px;
+}
